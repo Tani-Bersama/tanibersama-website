@@ -1,16 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
+import Home from "./Home.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import About from "./about/about.jsx";
 import Product from "./product/product.jsx";
 import Error from "./error.jsx";
+import Navbar from "./components/Navbar.jsx";
+import Layout from "./Layout.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Home />,
     errorElement: <Error />,
   },
   {
