@@ -1,6 +1,6 @@
 import Items from "./components/Items"
 
-const product = () => {
+const Product = () => {
   return (
     <div className="w-full">
         <div 
@@ -67,4 +67,4 @@ const product = () => {
   )
 }
 
-export default product
+export default Product

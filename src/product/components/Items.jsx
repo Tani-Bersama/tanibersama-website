@@ -1,11 +1,8 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 
-interface ItemsProps {
-    title : string;
-    description? : string;
-}
-
-const Items: React.FC<ItemsProps> = ({title, description}) => {
+const Items = (props) => {
+    var title = props.title
+    var description = props.description
   return (
     <div 
         className="
