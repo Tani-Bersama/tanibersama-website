@@ -8,6 +8,9 @@ import Product from "./product/product.jsx";
 import Error from "./error.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Layout from "./Layout.jsx";
+import Collective from "./collective/collective.jsx";
+import Technology from "./technology/technology.jsx";
+import Partner from "./partner/partner.jsx";
 
 const router = createBrowserRouter([
   {
@@ -16,12 +19,24 @@ const router = createBrowserRouter([
     errorElement: <Error />,
   },
   {
-    path: "/about",
-    element: <About />,
+    path: "/collective",
+    element: <Collective />,
   },
   {
     path: "/product",
     element: <Product />,
+  },
+  {
+    path: "/technology",
+    element: <Technology />,
+  },
+  {
+    path: "/partner",
+    element: <Partner />,
+  },
+  {
+    path: "/about",
+    element: <About />,
   },
 ]);
 
