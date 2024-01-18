@@ -92,7 +92,18 @@ const Collective = () => {
           </p>
         </div>
         <div>
-          <img className="object-scale-down w-[945px] mt-4 lg:mt-10 h-[589px]" src={collective} alt="Collective" />
+          <img 
+            className="
+              object-scale-down 
+              lg:w-[945px] 
+              mt-4 
+              lg:mt-10 
+              lg:h-[589px]
+              w-auto
+              h-auto
+              " 
+            src={collective} 
+            alt="Collective" />
         </div>
         <hr className="w-5/12 h-[3px] bg-[#55A840] my-10 lg:my-28" />
         <div className="flex flex-col justify-center items-center text-center">
