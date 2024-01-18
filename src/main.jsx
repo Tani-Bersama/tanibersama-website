@@ -8,6 +8,7 @@ import Product from "./product/product.jsx";
 import Error from "./error.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Layout from "./Layout.jsx";
+import Collective from "./collective/collective.jsx";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "/product",
     element: <Product />,
+  },
+  {
+    path: "/collective",
+    element: <Collective />,
   },
 ]);
 
