@@ -1,10 +1,10 @@
 const Information = () => {
   return (
-    <div className="flex flex-col text-white">
+    <div className="flex flex-col text-white gap-4">
         <div className="font-bold">
             PT TANI BERSAMA SEJAHTERA
         </div>
-        <div>
+        <div className="w-[294px]">
             <div>
                 Head Office:
             </div>

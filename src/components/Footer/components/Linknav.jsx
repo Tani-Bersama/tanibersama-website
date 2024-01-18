@@ -2,7 +2,10 @@ import { Link } from "react-router-dom"
 
 const Linknav = () => {
   return (
-    <div className="flex flex-col gap-4 text-white">
+    <div className="flex flex-col gap-2 text-white">
+      <Link to="/" >
+        Home
+      </Link>
       <Link to="/collective" >
         Collective Farming
       </Link>

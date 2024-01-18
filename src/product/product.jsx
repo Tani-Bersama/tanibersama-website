@@ -1,8 +1,10 @@
+import Layout from "../Layout"
 import Items from "./components/Items"
 
 const Product = () => {
   return (
-    <div className="w-full">
+    <Layout>
+        <div className="w-full">
         <div 
             className="
                 bg-[#5EBB47] 
@@ -61,9 +63,10 @@ const Product = () => {
                     <div className="lg:col-span-3 flex justify-center">
                         <Items title="Benih unggul" />
                     </div>
+                </div>
             </div>
         </div>
-    </div>
+    </Layout>
   )
 }
 
