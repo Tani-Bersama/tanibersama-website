@@ -19,7 +19,7 @@ export default function Navbar() {
           </h1>
         </div>
         <div
-          className={`mr-14 lmd:ml-14 lmd:static absolute lmd:bg-transparent bg-white lmd:min-h-fit min-h-[40vh] left-0 top-[70px] ${margin} lmd:w-auto w-full flex items-center justify-center px-5`}
+          className={`mr-14 lmd:ml-14 lmd:static absolute lmd:bg-transparent bg-white lmd:min-h-fit min-h-[40vh] left-0 top-[70px] ${margin} lmd:w-auto w-full lmd:flex flex items-center justify-center px-5`}
         >
           <ul className="flex lmd:flex-row flex-col lmd:items-center text-center text-[14px]">
             <li className="lmd:m-5 md:mt-[-50px] m-2">
