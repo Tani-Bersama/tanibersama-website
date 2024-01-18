@@ -3,8 +3,11 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      screens: {
+        lmd: "985px",
+      },
       fontFamily: {
-        sans: ['"Inter"'],
+        all: ["Inter", "Rubik Burned"],
       },
     },
   },
