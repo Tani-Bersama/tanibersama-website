@@ -2,6 +2,7 @@ import Layout from "../Layout";
 import Arrow from "./components/Arrow";
 import Box from "./components/Box";
 import BoxItem from "./components/BoxItem";
+import DescriptionText from "./components/DescriptionText";
 import Point from "./components/Point";
 
 export default function Technology() {
@@ -82,6 +83,22 @@ export default function Technology() {
               <BoxItem text="Olah lahan sempurna"/>
               <BoxItem text="Tanam lebih rapat dan lebih bagus"/>
             </div>
+          </div>
+          <div className="flex flex-wrap gap-32 mt-14 mb-28">
+            <DescriptionText 
+              title="Konsolidasi Lahan"
+              improvement="(Lebih bagus, lebih cepat/serempak, lebih mudah)"
+              description="Problem yang diselesaikan: keterbatasan SDM 
+              yang berkualitas dan keterbatasan alat mesin
+               pertanian yang bagus."
+              />
+            <DescriptionText 
+              title="Konsolidasi Lahan"
+              improvement="(Lebih bagus, lebih cepat/serempak, lebih mudah)"
+              description="Problem yang diselesaikan: keterbatasan SDM 
+              yang berkualitas dan keterbatasan alat mesin
+               pertanian yang bagus."
+              />
           </div>
         </div>
       </div>
