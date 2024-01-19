@@ -19,7 +19,7 @@ export default function Technology() {
         </div>
         <div className="flex flex-col justify-center items-center">
           <div className="flex flex-wrap gap-1 mt-10 justify-center">
-            <div className="grid grid-flow-row-dense gap-1 grid-cols-2 grid-rows-4">
+            <div className="grid grid-flow-row-dense gap-1 grid-cols-2 grid-rows-2 lg:grid-rows-4">
               <Box text="Area Luas" color={"bg-[#45A32E]"}/>
               <Box text="Area Luas" color={"bg-[#45A32E] "}/>
               <Box text="Data Lahan" color={"bg-[#45A32E] "}/>
@@ -70,21 +70,21 @@ export default function Technology() {
             Injeksi Teknologi untuk Peningkatan Produksi 
             dan Pengelolaan Rice-Estate Skala Luas
           </div>
-          <div className="flex flex-wrap gap-16 text-center">
-            <div className="grid grid-flow-row-dense gap-10 grid-cols-2 grid-rows-2">
+          <div className="flex flex-wrap gap-16 text-center justify-center">
+            <div className="grid grid-flow-row-dense gap-10 grid-cols-1 lg:grid-cols-2 grid-rows-4 lg:grid-rows-2">
               <BoxItem text="Panen lebih cepat dan lebih bagus"/>
               <BoxItem text="Semprot lebih cepat, serempak dan efektif"/>
               <BoxItem text="Olah lahan sempurna"/>
               <BoxItem text="Tanam lebih rapat dan lebih bagus"/>
             </div>
-            <div className="grid grid-flow-row-dense gap-10 grid-cols-2 grid-rows-2">
+            <div className="grid grid-flow-row-dense gap-10 grid-cols-1 lg:grid-cols-2 grid-rows-4 lg:grid-rows-2">
               <BoxItem text="Panen lebih cepat dan lebih bagus"/>
               <BoxItem text="Semprot lebih cepat, serempak dan efektif"/>
               <BoxItem text="Olah lahan sempurna"/>
               <BoxItem text="Tanam lebih rapat dan lebih bagus"/>
             </div>
           </div>
-          <div className="flex flex-wrap gap-32 mt-14 mb-28">
+          <div className="flex flex-wrap gap-32 mt-14 mb-28 justify-center">
             <DescriptionText 
               title="Konsolidasi Lahan"
               improvement="(Lebih bagus, lebih cepat/serempak, lebih mudah)"
