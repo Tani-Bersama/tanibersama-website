@@ -7,7 +7,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="max-h-[70px] w-full flex flex-row justify-between items-center bg-white font-all top-0 sticky">
+      <div className="max-h-[70px] w-full flex flex-row justify-between items-center bg-white font-all top-0 sticky z-50">
         <div className="flex flex-row items-center ml-14 mr-14">
           <img
             src="src/components/assets/logonav.png"
