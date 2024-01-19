@@ -6,6 +6,8 @@ import SecondTitle from "./components/home/SecondTitle.";
 import CrisisCard from "./components/home/CrisisCard";
 import ArrowRight from "./components/home/ArrowRight";
 import EffectCard from "./components/home/EffectCard";
+import FourthCard from "./components/home/FourthCard";
+import FifthCard from "./components/home/FifthCard";
 
 function Home() {
   return (
@@ -48,12 +50,14 @@ function Home() {
       </div>
       <div className="my-16 mx-8">
         <SecondTitle />
-        <div className="flex">
+        <div className="flex justify-center items-center gap-x-[90px]">
           <CrisisCard />
           <ArrowRight />
           <EffectCard />
         </div>
       </div>
+      <FourthCard />
+      <FifthCard />
     </Layout>
   );
 }
