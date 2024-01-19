@@ -1,6 +1,7 @@
 import Layout from "../Layout";
 import Arrow from "./components/Arrow";
 import Box from "./components/Box";
+import BoxItem from "./components/BoxItem";
 import Point from "./components/Point";
 
 export default function Technology() {
@@ -64,9 +65,23 @@ export default function Technology() {
             Sustained High Productivity on Every Block and Big Scale Areas
           </div>
           <hr className="w-5/12 h-[3px] bg-[#55A840] my-10 lg:my-28" />
-          <div className="bg-[#5EBB47] text-white text-2xl font-bold text-center rounded-lg p-36">
+          <div className="bg-[#5EBB47] text-white text-2xl font-bold text-center rounded-lg p-36 mb-20">
             Injeksi Teknologi untuk Peningkatan Produksi 
             dan Pengelolaan Rice-Estate Skala Luas
+          </div>
+          <div className="flex flex-wrap gap-16 text-center">
+            <div className="grid grid-flow-row-dense gap-10 grid-cols-2 grid-rows-2">
+              <BoxItem text="Panen lebih cepat dan lebih bagus"/>
+              <BoxItem text="Semprot lebih cepat, serempak dan efektif"/>
+              <BoxItem text="Olah lahan sempurna"/>
+              <BoxItem text="Tanam lebih rapat dan lebih bagus"/>
+            </div>
+            <div className="grid grid-flow-row-dense gap-10 grid-cols-2 grid-rows-2">
+              <BoxItem text="Panen lebih cepat dan lebih bagus"/>
+              <BoxItem text="Semprot lebih cepat, serempak dan efektif"/>
+              <BoxItem text="Olah lahan sempurna"/>
+              <BoxItem text="Tanam lebih rapat dan lebih bagus"/>
+            </div>
           </div>
         </div>
       </div>
