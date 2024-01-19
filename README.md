@@ -1,8 +1,3 @@
-# React + Vite
+# tanibersama
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+TBS adalah perusahaan “on-farm management & technology solution” untuk peningkatan produktivitas panen berkelanjutan melalui program Collective Farming (CF), konsolidasi dan manajemen lahan: penerapan manajemen budidaya (GAP = good agriculture practice), serempak, penyediaan modal kerja, penyerapan hasil dan implementasi teknologi budidaya modern dalam satu hamparan blok lahan.
