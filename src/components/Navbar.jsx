@@ -13,6 +13,7 @@ export default function Navbar() {
             src="src/components/assets/logonav.png"
             width={45}
             className="mr-3 ml-6 mt-4 mb-4"
+            alt="LogoNav"
           />
           <h1 className="ml-4 font-bold text-[16px] text-[#5EBB47]">
             tanibersama
