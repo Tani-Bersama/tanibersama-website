@@ -2,6 +2,16 @@ import React from "react";
 import Layout from "../Layout";
 import MitraCard from "./components/MitraCard";
 
+import agricon from "./assets/images/agroinput/agricon.png";
+import bayer from "./assets/images/agroinput/bayer.png";
+import biotis from "./assets/images/agroinput/biotis.png";
+import corteva from "./assets/images/agroinput/corteva.png";
+import dgw from "./assets/images/agroinput/dgw.png";
+import fmc from "./assets/images/agroinput/fmc.png";
+import makmur from "./assets/images/agroinput/makmur.png";
+import pip from "./assets/images/agroinput/pupukindonesiaholdingcompany.png";
+import sygenta from "./assets/images/agroinput/sygenta.png";
+
 export default function Partner() {
   return (
     <Layout>
@@ -88,51 +98,15 @@ export default function Partner() {
             />
           </MitraCard>
           <MitraCard title="PRODUSEN AGRO-INPUT">
-            <img
-              src="src/partner/assets/images/agroinput/agricon.png"
-              alt="agricon"
-              className="w-auto h-[90px] m-5"
-            />
-            <img
-              src="src/partner/assets/images/agroinput/bayer.png"
-              alt="bayer"
-              className="w-auto h-[80px] m-5"
-            />
-            <img
-              src="src/partner/assets/images/agroinput/biotis.png"
-              alt="biotis"
-              className="w-auto h-[90px] m-5"
-            />
-            <img
-              src="src/partner/assets/images/agroinput/corteva.png"
-              alt="corveta"
-              className="w-auto h-[80px] m-5"
-            />
-            <img
-              src="src/partner/assets/images/agroinput/dgw.png"
-              alt="dgw"
-              className="w-auto h-[70px] m-5"
-            />
-            <img
-              src="src/partner/assets/images/agroinput/fmc.png"
-              alt="fmc"
-              className="w-auto h-[45px] m-5"
-            />
-            <img
-              src="src/partner/assets/images/agroinput/makmur.png"
-              alt="makmur"
-              className="w-auto h-[120px]"
-            />
-            <img
-              src="src/partner/assets/images/agroinput/pupukindonesiaholdingcompany.jpg"
-              alt="pupukindonesia"
-              className="w-auto h-[100px]"
-            />
-            <img
-              src="src/partner/assets/images/agroinput/sygenta.jpg"
-              alt="sygenta"
-              className="w-auto h-[90px]"
-            />
+            <img src={agricon} alt="agricon" className="w-auto h-[90px] m-5" />
+            <img src={bayer} alt="bayer" className="w-auto h-[80px] m-5" />
+            <img src={biotis} alt="biotis" className="w-auto h-[90px] m-5" />
+            <img src={corteva} alt="corveta" className="w-auto h-[80px] m-5" />
+            <img src={dgw} alt="dgw" className="w-auto h-[70px] m-5" />
+            <img src={fmc} alt="fmc" className="w-auto h-[45px] m-5" />
+            <img src={makmur} alt="makmur" className="w-auto h-[120px]" />
+            <img src={pip} alt="pupukindonesia" className="w-auto h-[100px]" />
+            <img src={sygenta} alt="sygenta" className="w-auto h-[90px]" />
           </MitraCard>
         </div>
       </div>
