@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import logonav from "./assets/logonav.png";
 
 export default function Navbar() {
   const [margin, setMargin] = useState("hidden");
@@ -10,7 +11,7 @@ export default function Navbar() {
       <div className="max-h-[70px] w-full flex flex-row justify-between items-center bg-white font-all top-0 sticky z-50">
         <div className="flex flex-row items-center ml-14 mr-14">
           <img
-            src="src/components/assets/logonav.png"
+            src={logonav}
             width={45}
             className="mr-3 ml-6 mt-4 mb-4"
             alt="LogoNav"
