@@ -9,6 +9,7 @@ import corteva from "./assets/images/agroinput/corteva.png";
 import dgw from "./assets/images/agroinput/dgw.png";
 import fmc from "./assets/images/agroinput/fmc.png";
 import makmur from "./assets/images/agroinput/makmur.png";
+
 import pih from "./assets/images/agroinput/pupukindonesiaholdingcompany.jpg";
 import sygenta from "./assets/images/agroinput/sygenta.jpg";
 
