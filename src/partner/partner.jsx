@@ -9,8 +9,25 @@ import corteva from "./assets/images/agroinput/corteva.png";
 import dgw from "./assets/images/agroinput/dgw.png";
 import fmc from "./assets/images/agroinput/fmc.png";
 import makmur from "./assets/images/agroinput/makmur.png";
-import pip from "./assets/images/agroinput/pupukindonesiaholdingcompany.png";
-import sygenta from "./assets/images/agroinput/sygenta.png";
+import pih from "./assets/images/agroinput/pupukindonesiaholdingcompany.jpg";
+import sygenta from "./assets/images/agroinput/sygenta.jpg";
+
+import dji from "./assets/images/alsintan/dji.png";
+import kubora from "./assets/images/alsintan/kubora.png";
+import maxxi from "./assets/images/alsintan/maxxi.png";
+import yanmar from "./assets/images/alsintan/yanmar.png";
+
+import aca from "./assets/images/asuransi/aca.png";
+import jasindo from "./assets/images/asuransi/jasindo.jpg";
+
+import bri from "./assets/images/bank/bri.jpg";
+import bsi from "./assets/images/bank/bsi.jpg";
+import sinarmas from "./assets/images/bank/sinarmas.png";
+
+import agrojabar from "./assets/images/offtaker/agrojabar.jpg";
+import foodstation from "./assets/images/offtaker/foodstation.png";
+import pip from "./assets/images/offtaker/pip.png";
+import wilmar from "./assets/images/offtaker/wilmar.png";
 
 export default function Partner() {
   return (
@@ -25,77 +42,37 @@ export default function Partner() {
             daerah-daerah sentra tanaman padi lainnya.
           </MitraCard>
           <MitraCard title="ASURANSI BUDIDAYA">
-            <img
-              src="src/partner/assets/images/asuransi/aca.png"
-              alt="aca"
-              className="w-auto h-[70px] m-5"
-            />
-            <img
-              src="src/partner/assets/images/asuransi/jasindo.jpg"
-              alt="jasindo"
-              className="w-auto h-[60px] m-5"
-            />
+            <img src={aca} alt="aca" className="w-auto h-[70px] m-5" />
+            <img src={jasindo} alt="jasindo" className="w-auto h-[60px] m-5" />
           </MitraCard>
           <MitraCard title="BANK-BANK PENYALUR KUR">
+            <img src={bri} alt="bri" className="w-auto h-[75px] m-5" />
+            <img src={bsi} alt="bsi" className="w-auto h-[90px] m-5" />
             <img
-              src="src/partner/assets/images/bank/bri.jpg"
-              alt="bri"
-              className="w-auto h-[75px] m-5"
-            />
-            <img
-              src="src/partner/assets/images/bank/bsi.jpg"
-              alt="bsi"
-              className="w-auto h-[90px] m-5"
-            />
-            <img
-              src="src/partner/assets/images/bank/sinarmas.png"
+              src={sinarmas}
               alt="sinarmas"
               className="w-auto h-[70px] m-5"
             />
           </MitraCard>
           <MitraCard title="OFFTAKER - PABRIK BERAS">
             <img
-              src="src/partner/assets/images/offtaker/agrojabar.jpg"
+              src={agrojabar}
               alt="agrojabar"
               className="w-auto h-[100px] m-5"
             />
             <img
-              src="src/partner/assets/images/offtaker/foodstation.png"
+              src={foodstation}
               alt="foodstation"
               className="w-auto h-[50px] m-5"
             />
-            <img
-              src="src/partner/assets/images/offtaker/pip.png"
-              alt="pip"
-              className="w-auto h-[70px] m-5"
-            />
-            <img
-              src="src/partner/assets/images/offtaker/wilmar.png"
-              alt="wilmar"
-              className="w-auto h-[60px] m-5"
-            />
+            <img src={pip} alt="pip" className="w-auto h-[70px] m-5" />
+            <img src={wilmar} alt="wilmar" className="w-auto h-[60px] m-5" />
           </MitraCard>
           <MitraCard title="PRODUSEN ALSINTAN">
-            <img
-              src="src/partner/assets/images/alsintan/dji.png"
-              alt="dji"
-              className="w-auto h-[50px] m-5"
-            />
-            <img
-              src="src/partner/assets/images/alsintan/kubora.png"
-              alt="kubora"
-              className="w-auto h-[60px] m-5"
-            />
-            <img
-              src="src/partner/assets/images/alsintan/maxxi.png"
-              alt="maxxi"
-              className="w-auto h-[50px] m-5"
-            />
-            <img
-              src="src/partner/assets/images/alsintan/yanmar.png"
-              alt="yanmar"
-              className="w-auto h-[70px] m-5"
-            />
+            <img src={dji} alt="dji" className="w-auto h-[50px] m-5" />
+            <img src={kubora} alt="kubora" className="w-auto h-[60px] m-5" />
+            <img src={maxxi} alt="maxxi" className="w-auto h-[50px] m-5" />
+            <img src={yanmar} alt="yanmar" className="w-auto h-[70px] m-5" />
           </MitraCard>
           <MitraCard title="PRODUSEN AGRO-INPUT">
             <img src={agricon} alt="agricon" className="w-auto h-[90px] m-5" />
@@ -105,7 +82,7 @@ export default function Partner() {
             <img src={dgw} alt="dgw" className="w-auto h-[70px] m-5" />
             <img src={fmc} alt="fmc" className="w-auto h-[45px] m-5" />
             <img src={makmur} alt="makmur" className="w-auto h-[120px]" />
-            <img src={pip} alt="pupukindonesia" className="w-auto h-[100px]" />
+            <img src={pih} alt="pupukindonesia" className="w-auto h-[100px]" />
             <img src={sygenta} alt="sygenta" className="w-auto h-[90px]" />
           </MitraCard>
         </div>
