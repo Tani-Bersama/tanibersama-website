@@ -7,7 +7,7 @@ export default function PersonsCard({ name, cat, children }) {
       <div className="mt-2">{name}</div>
       <div>{cat}</div>
       <div className="w-[100px] h-[2px] bg-[#5EBB48] my-5"></div>
-      <div>{children}</div>
+      <div className="flex flex-col gap-y-[20px]">{children}</div>
     </div>
   );
 }
